@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+	double radius;
+	cout<<"HeLlO uSeR i WiSh YoU dOiNg WelL\n";
+	cout<<"Enter the radious of the circle in meters:\n";
+	cin>>radius;
+	const double PI=3.1415926535;
+	const double Area=PI*radius*radius;
+	const double Perimeter=PI*radius*2;
+	cout<<"The area is:"<<Area<<" meter \n";
+	cout<<"The circumference is:"<<Perimeter<<" meter²\n";
+	cin.get();
+	return 0;}
