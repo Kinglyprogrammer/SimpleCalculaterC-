@@ -37,5 +37,5 @@ cout<<"   "<<Firstnumber<<"/"<<Secondnumber<<"="<<Result<<endl;
     break;}
     default:cout<<"Invalid choice!!\n";
 }
-system("pause");
+cin.get(); 
 return 0;}
