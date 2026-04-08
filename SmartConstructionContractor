@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main (){
+	double Diameter,Price;
+	cout<<"HeLlO uSeR i WiSh YoU dOiNg WelL\n";
+	cout<<"Enter the diameter of the wall  in meters:";
+	cin >>Diameter;
+	cout<<" Enter the price per meter of the wall with dollar: ";
+	cin>>Price;
+	const double PI=3.1415926535;
+	const double Radius=Diameter/2;
+	const double Perimeter=PI*Radius*2;
+	const double TGP=Perimeter*Price;//TGP=TheGeneralPrice
+	const double tax =50;
+	const double GPT=TGP+tax;
+	cout<<"--------The information of the build--------\n";
+	cout<<"•The tall of the wall is:"<<Perimeter<<"m\n";
+	cout<<"•The price before the tax is:"<<TGP<<"$\n";
+	cout<<"•The final price with the tax:"<<GPT<<"$\n";//GPT=TheGeneralPriceWithTax
+	return 0;}
